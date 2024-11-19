@@ -1,0 +1,289 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-page{
+width: 1440px;
+height: 4370px;
+background: #ffffff;
+}
+
+.header-up{
+width: 1440px;
+height: 40px;
+background: #0a0a0a;
+color: #ffffff;
+padding: 10px;
+display: flex;
+}
+.header-one{
+display: flex;
+padding: 0px 0px 0px 550px;
+font-size: 14px;
+font-weight: 400;
+gap: 20px;
+}
+.header-cross{
+padding: 0px 0px 0px 350px;
+}
+.header-down{
+width: 1440px;
+height: 66px;
+background: #ffffff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 20px 0px 80px ;
+}
+.header-shop{
+font-family: 'Arial';
+font-size: 24px;
+font-weight: 900;
+}
+.header-shoparrow{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.6px;
+display: flex;
+gap: 5px;
+align-items: center;
+}
+.header-shoparrow img{
+width: 11.5px;
+height: 6.5px;
+}
+
+.header-ul{
+display: flex;
+font-size: 16px;
+font-weight: 400;
+align-items: center;
+gap: 20px;
+}
+
+.header-searchbar{
+background: #F0F0F0;
+display: flex;
+width: 577px;
+height: 45px;
+padding: 12px 16px 12px 16px;
+border-radius: 62px;
+gap: 20px;
+}
+.header-trash{
+width: 62px;
+height: 24px;
+gap: 14px;
+display: flex;
+}
+.hero-main{
+background-image: url("/Rectangle2.png");
+width: 1440px;
+height: 663px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+.main-div1{
+  width: 577px;
+  height: 173px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:30px;
+}
+  
+.main-div2{
+  width: 577px;
+  height: 450px;
+  }
+
+.star-large{
+padding: 0px 0px 0px 500px;
+}
+.star-small{
+padding: 110px 0px 0px 40px;
+}
+.div1-sect1{
+display: flex;
+flex-wrap:wrap;
+gap: 10px;
+}
+
+.div1-sect1 h1{
+font-size: 54px;
+font-weight: 900;
+font-family: Arial, Helvetica;
+}
+
+.div1-sect1 p{
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+}
+
+.div1-sect1 button{
+  font-size: 16px;
+  font-weight: 500;
+  width: 210px;
+  height: 52px;
+  padding: 16px 54px 16px 54px;
+  gap: 12px;
+  border-radius: 62px;
+  background: #000000;
+  color: #ffffff;
+}
+  
+.div1-sect2{
+display: flex;
+gap: 30px; 
+}
+
+.figure-no{
+font-size: 40px;
+font-weight: 700;
+}
+.figure-para{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.figure-pipe{
+  width: 0px;
+  height: 74px;
+  gap: 0px;
+  border: 1px;
+  border: 1px solid #0000001A;
+}
+
+.logo-div{
+  width: 1440px;
+  height: 122px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.hero2-main{
+width: 100%;
+height: 1900px;
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+}
+.main-part{
+  width: 90%;
+  height: 98%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-part-div{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.image-size{
+  width: 230px;
+  height: 250px;
+}
+
+.part1-heading{
+  font-size: 38px;
+  font-weight: 900;
+}
+.heading3{
+font-size: 17px;
+font-weight: 900;
+}
+.heading1{
+  font-size: 20px;
+  font-weight: 200;  
+}
+
+.picture-main{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top:30px ;
+}
+
+.line-div{
+width: 90%;
+height: 1px;
+background: #0000001A;
+}
+
+.view-all{
+width: 218px;
+height: 52px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 62px;
+border: 1px solid #0000001A; 
+margin-top: 30px;
+}
+
+.frame-div{
+width: 1239px;
+height: 866px;
+border-radius: 40px 0px 0px 0px;
+margin-top: 50px;
+}
+
+.bottom-main{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  }
+  .bot-main-div{
+    width: 90%;
+    height: 98%;
+    background-color: #ffffff;
+    
+  }
+
+.heading-customer{
+font-size: 40px;
+font-weight: 900;
+line-height: 57.6px;
+}
+
+.customer-para{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+  
